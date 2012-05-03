@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551C21E81551D90900A8D5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C21E71551D90900A8D5BE /* UIKit.framework */; };
+		551C21EA1551D90900A8D5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C21E91551D90900A8D5BE /* Foundation.framework */; };
+		551C21EC1551D90900A8D5BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C21EB1551D90900A8D5BE /* CoreGraphics.framework */; };
+		551C21F21551D90900A8D5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551C21F01551D90900A8D5BE /* InfoPlist.strings */; };
+		551C21F41551D90900A8D5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C21F31551D90900A8D5BE /* main.m */; };
+		551C21F81551D90900A8D5BE /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C21F71551D90900A8D5BE /* SBAppDelegate.m */; };
+		551C21FB1551D90900A8D5BE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551C21F91551D90900A8D5BE /* MainStoryboard.storyboard */; };
+		551C21FE1551D90900A8D5BE /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C21FD1551D90900A8D5BE /* SBViewController.m */; };
+		551C22061551D90900A8D5BE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C22051551D90900A8D5BE /* SenTestingKit.framework */; };
+		551C22071551D90900A8D5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C21E71551D90900A8D5BE /* UIKit.framework */; };
+		551C22081551D90900A8D5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C21E91551D90900A8D5BE /* Foundation.framework */; };
+		551C22101551D90900A8D5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551C220E1551D90900A8D5BE /* InfoPlist.strings */; };
+		551C22131551D90900A8D5BE /* SnackBuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C22121551D90900A8D5BE /* SnackBuddyTests.m */; };
+		551C221E1551DCFA00A8D5BE /* SBSelectSnackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C221D1551DCFA00A8D5BE /* SBSelectSnackViewController.m */; };
+		551C22201551E0AF00A8D5BE /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C221F1551E0AF00A8D5BE /* ExternalAccessory.framework */; };
+		551C22231551E10700A8D5BE /* SBVendingAccessoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C22221551E10700A8D5BE /* SBVendingAccessoryController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551C22091551D90900A8D5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551C21DA1551D90900A8D5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551C21E21551D90900A8D5BE;
+			remoteInfo = SnackBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551C21E31551D90900A8D5BE /* SnackBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551C21E71551D90900A8D5BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		551C21E91551D90900A8D5BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		551C21EB1551D90900A8D5BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		551C21EF1551D90900A8D5BE /* SnackBuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnackBuddy-Info.plist"; sourceTree = "<group>"; };
+		551C21F11551D90900A8D5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		551C21F31551D90900A8D5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		551C21F51551D90900A8D5BE /* SnackBuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnackBuddy-Prefix.pch"; sourceTree = "<group>"; };
+		551C21F61551D90900A8D5BE /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		551C21F71551D90900A8D5BE /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		551C21FA1551D90900A8D5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		551C21FC1551D90900A8D5BE /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		551C21FD1551D90900A8D5BE /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		551C22041551D90900A8D5BE /* SnackBuddyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackBuddyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551C22051551D90900A8D5BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		551C220D1551D90900A8D5BE /* SnackBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnackBuddyTests-Info.plist"; sourceTree = "<group>"; };
+		551C220F1551D90900A8D5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		551C22111551D90900A8D5BE /* SnackBuddyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnackBuddyTests.h; sourceTree = "<group>"; };
+		551C22121551D90900A8D5BE /* SnackBuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnackBuddyTests.m; sourceTree = "<group>"; };
+		551C221C1551DCFA00A8D5BE /* SBSelectSnackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSelectSnackViewController.h; sourceTree = "<group>"; };
+		551C221D1551DCFA00A8D5BE /* SBSelectSnackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSelectSnackViewController.m; sourceTree = "<group>"; };
+		551C221F1551E0AF00A8D5BE /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		551C22211551E10700A8D5BE /* SBVendingAccessoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBVendingAccessoryController.h; sourceTree = "<group>"; };
+		551C22221551E10700A8D5BE /* SBVendingAccessoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBVendingAccessoryController.m; sourceTree = "<group>"; };
+		551C22271552038200A8D5BE /* RemoteVendingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RemoteVendingProtocol.h; path = ../RemoteVendingProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551C21E01551D90900A8D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C22201551E0AF00A8D5BE /* ExternalAccessory.framework in Frameworks */,
+				551C21E81551D90900A8D5BE /* UIKit.framework in Frameworks */,
+				551C21EA1551D90900A8D5BE /* Foundation.framework in Frameworks */,
+				551C21EC1551D90900A8D5BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551C22001551D90900A8D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C22061551D90900A8D5BE /* SenTestingKit.framework in Frameworks */,
+				551C22071551D90900A8D5BE /* UIKit.framework in Frameworks */,
+				551C22081551D90900A8D5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551C21D81551D90900A8D5BE = {
+			isa = PBXGroup;
+			children = (
+				551C221F1551E0AF00A8D5BE /* ExternalAccessory.framework */,
+				551C21ED1551D90900A8D5BE /* SnackBuddy */,
+				551C220B1551D90900A8D5BE /* SnackBuddyTests */,
+				551C21E61551D90900A8D5BE /* Frameworks */,
+				551C21E41551D90900A8D5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551C21E41551D90900A8D5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551C21E31551D90900A8D5BE /* SnackBuddy.app */,
+				551C22041551D90900A8D5BE /* SnackBuddyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551C21E61551D90900A8D5BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551C21E71551D90900A8D5BE /* UIKit.framework */,
+				551C21E91551D90900A8D5BE /* Foundation.framework */,
+				551C21EB1551D90900A8D5BE /* CoreGraphics.framework */,
+				551C22051551D90900A8D5BE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		551C21ED1551D90900A8D5BE /* SnackBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				551C21F61551D90900A8D5BE /* SBAppDelegate.h */,
+				551C221C1551DCFA00A8D5BE /* SBSelectSnackViewController.h */,
+				551C221D1551DCFA00A8D5BE /* SBSelectSnackViewController.m */,
+				551C22271552038200A8D5BE /* RemoteVendingProtocol.h */,
+				551C21FC1551D90900A8D5BE /* SBViewController.h */,
+				551C21FD1551D90900A8D5BE /* SBViewController.m */,
+				551C22211551E10700A8D5BE /* SBVendingAccessoryController.h */,
+				551C22221551E10700A8D5BE /* SBVendingAccessoryController.m */,
+				551C21F71551D90900A8D5BE /* SBAppDelegate.m */,
+				551C21F91551D90900A8D5BE /* MainStoryboard.storyboard */,
+				551C21EE1551D90900A8D5BE /* Supporting Files */,
+			);
+			path = SnackBuddy;
+			sourceTree = "<group>";
+		};
+		551C21EE1551D90900A8D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				551C21EF1551D90900A8D5BE /* SnackBuddy-Info.plist */,
+				551C21F01551D90900A8D5BE /* InfoPlist.strings */,
+				551C21F31551D90900A8D5BE /* main.m */,
+				551C21F51551D90900A8D5BE /* SnackBuddy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		551C220B1551D90900A8D5BE /* SnackBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				551C22111551D90900A8D5BE /* SnackBuddyTests.h */,
+				551C22121551D90900A8D5BE /* SnackBuddyTests.m */,
+				551C220C1551D90900A8D5BE /* Supporting Files */,
+			);
+			path = SnackBuddyTests;
+			sourceTree = "<group>";
+		};
+		551C220C1551D90900A8D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				551C220D1551D90900A8D5BE /* SnackBuddyTests-Info.plist */,
+				551C220E1551D90900A8D5BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551C21E21551D90900A8D5BE /* SnackBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551C22161551D90900A8D5BE /* Build configuration list for PBXNativeTarget "SnackBuddy" */;
+			buildPhases = (
+				551C21DF1551D90900A8D5BE /* Sources */,
+				551C21E01551D90900A8D5BE /* Frameworks */,
+				551C21E11551D90900A8D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackBuddy;
+			productName = SnackBuddy;
+			productReference = 551C21E31551D90900A8D5BE /* SnackBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551C22031551D90900A8D5BE /* SnackBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551C22191551D90900A8D5BE /* Build configuration list for PBXNativeTarget "SnackBuddyTests" */;
+			buildPhases = (
+				551C21FF1551D90900A8D5BE /* Sources */,
+				551C22001551D90900A8D5BE /* Frameworks */,
+				551C22011551D90900A8D5BE /* Resources */,
+				551C22021551D90900A8D5BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551C220A1551D90900A8D5BE /* PBXTargetDependency */,
+			);
+			name = SnackBuddyTests;
+			productName = SnackBuddyTests;
+			productReference = 551C22041551D90900A8D5BE /* SnackBuddyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551C21DA1551D90900A8D5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 551C21DD1551D90900A8D5BE /* Build configuration list for PBXProject "SnackBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 551C21D81551D90900A8D5BE;
+			productRefGroup = 551C21E41551D90900A8D5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551C21E21551D90900A8D5BE /* SnackBuddy */,
+				551C22031551D90900A8D5BE /* SnackBuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551C21E11551D90900A8D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C21F21551D90900A8D5BE /* InfoPlist.strings in Resources */,
+				551C21FB1551D90900A8D5BE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551C22011551D90900A8D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C22101551D90900A8D5BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		551C22021551D90900A8D5BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551C21DF1551D90900A8D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C21F41551D90900A8D5BE /* main.m in Sources */,
+				551C21F81551D90900A8D5BE /* SBAppDelegate.m in Sources */,
+				551C21FE1551D90900A8D5BE /* SBViewController.m in Sources */,
+				551C221E1551DCFA00A8D5BE /* SBSelectSnackViewController.m in Sources */,
+				551C22231551E10700A8D5BE /* SBVendingAccessoryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551C21FF1551D90900A8D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551C22131551D90900A8D5BE /* SnackBuddyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551C220A1551D90900A8D5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551C21E21551D90900A8D5BE /* SnackBuddy */;
+			targetProxy = 551C22091551D90900A8D5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		551C21F01551D90900A8D5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551C21F11551D90900A8D5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		551C21F91551D90900A8D5BE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551C21FA1551D90900A8D5BE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		551C220E1551D90900A8D5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551C220F1551D90900A8D5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551C22141551D90900A8D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		551C22151551D90900A8D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551C22171551D90900A8D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnackBuddy/SnackBuddy-Prefix.pch";
+				INFOPLIST_FILE = "SnackBuddy/SnackBuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		551C22181551D90900A8D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnackBuddy/SnackBuddy-Prefix.pch";
+				INFOPLIST_FILE = "SnackBuddy/SnackBuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		551C221A1551D90900A8D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnackBuddy.app/SnackBuddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnackBuddy/SnackBuddy-Prefix.pch";
+				INFOPLIST_FILE = "SnackBuddyTests/SnackBuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		551C221B1551D90900A8D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnackBuddy.app/SnackBuddy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnackBuddy/SnackBuddy-Prefix.pch";
+				INFOPLIST_FILE = "SnackBuddyTests/SnackBuddyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551C21DD1551D90900A8D5BE /* Build configuration list for PBXProject "SnackBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551C22141551D90900A8D5BE /* Debug */,
+				551C22151551D90900A8D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551C22161551D90900A8D5BE /* Build configuration list for PBXNativeTarget "SnackBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551C22171551D90900A8D5BE /* Debug */,
+				551C22181551D90900A8D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		551C22191551D90900A8D5BE /* Build configuration list for PBXNativeTarget "SnackBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551C221A1551D90900A8D5BE /* Debug */,
+				551C221B1551D90900A8D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551C21DA1551D90900A8D5BE /* Project object */;
+}
